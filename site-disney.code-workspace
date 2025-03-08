@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Новая папка"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "site-disney"
+	}
+}

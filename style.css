@@ -1,0 +1,131 @@
+*[
+    margin: 0;
+    font-family: Arial, helvetica, sans-serif
+]
+
+.clear{
+    clear: ;
+}
+
+main{
+    background-image: url('./img/background.png');
+    background-cize: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.left-bllock{
+    width: 630px;
+    float: left;
+}
+.container::after{
+    content: "";\
+    display: block;
+    clear: both;
+}
+.right-block{
+    width: 280px;
+    float: right;
+}
+
+logo{
+    margin-bottom: 80px;
+}
+.left-bllock ::content {
+    padding-left: 80px; 
+}
+
+.top-img img {
+    vertical-align: middle;
+    margin-bottom: 12px;
+}
+
+raiting-block {
+    float: right;
+    color: ffffff; 
+}
+
+.raiting-block {
+    display: block;
+}
+
+.raiting-valve img, span {
+    vertical-align: middle;
+}
+
+.raiting-valve img {
+    transition: 0.4s;
+    filter: grayscale(100%);
+}
+
+.raiting-valve img:hover {
+    filter: grayscale(0%);
+    cursor: pointer;
+}
+
+.left-text {
+    font-style: normal;
+    font-weight: 21px;
+    font-size: 1.4;
+    color: #FFF;
+}
+
+.block-titel {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+img-holder {
+    position: relative;
+    margin-top: 16px;
+}
+
+.img- holder::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.fl {float: left;}
+
+fl {float: right;}
+
+.play-btn {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    width: 40px;
+    transition: 0.2s;
+}
+
+.play-btn {
+    width: 60px;
+    cursor: pointer;
+}
+
+.avatar-logo {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+
+bot-shadow {
+    position: absolute;
+    width: 100px;
+    height: 130px;
+    bottom: 0;
+    background: linear-gradient(180eg, rgba(11, 16, 26, 0) 38%, #0b101a 89%);
+}
